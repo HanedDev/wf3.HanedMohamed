@@ -1,0 +1,161 @@
+*{
+    font-family: 'Raleway'
+}
+
+h4{
+    font-size: large;
+    margin-left: 10px;
+    
+}
+
+ul
+{
+   list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #0065fc;
+}
+
+header
+{
+
+    margin-top: auto px;
+    
+}
+
+header nav ul li a 
+{
+    margin-right: 20px;
+
+}
+
+/* SECTION RECHERCHE */
+.recherche{
+   
+}
+
+.Rechercher
+{
+    color: white;
+    background: #0065fc ;
+    border-radius: 20px ;
+    border: none;
+}
+
+div h2
+{
+    margin-right: 10px;
+}
+
+/* helpers */
+
+
+.flex {
+    display: flex;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+.space-around {
+    justify-content: space-around;}
+
+.space-between {
+        justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+
+
+.wrap {
+flex-wrap: wrap;
+}
+.column{
+    flex-direction: column
+}
+
+/* hébergements */
+
+#Hébergements {
+    padding: auto;
+    width: 70%;
+    background: rgb(218, 215, 215);
+    border-radius: 10px;
+}
+
+.heb , .heb2{
+    margin: 10px;
+    padding: 5px;
+    background: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+#Pop {
+    padding: auto;
+    margin-left: 20px;
+    width: 30%;
+    background: rgb(218, 215, 215);
+    border-radius: 10px;
+}
+
+.heb img{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+}
+.heb2 img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px 0 0 20px;
+}
+
+div{
+  
+    border-radius: 20px;
+}
+
+#bloc1
+{
+    width: 100%;
+}
+
+#Activités .x img {
+    width: 450px;
+    height: 563px;
+    border-radius: 20px 20px 0 0;
+}
+
+#Activités img {
+
+    width: 350px;
+    height: 270px;
+    border-radius: 20px 20px 0 0;
+}
+
+.x, 
+
+.x  {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 10px;
+}
+
+.xx {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+#Activités {
+    border-radius: 10px;
+    
+}
