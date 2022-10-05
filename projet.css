@@ -3,10 +3,13 @@
 }
 
 h4{
-    font-size: large;
+    font-weight: bolder;
+    font-size: 20px;
     margin-left: 10px;
     
 }
+
+
 
 ul
 {
@@ -30,24 +33,108 @@ header nav ul li a
     margin-right: 20px;
 
 }
+/* BUTTONS */
+button {
+    width: 150px;
+    height: 30px ;
+    background: white;
+    
+    border-radius: 20 px;
+
+    
+    border: 2px solid #e7e7e7;
+}
+
+/* .btn {
+    width: 30px;
+    height: 12px;
+    color: #0065fc;
+    border-radius: 50%;
+    background: #8ab1eb;
+} */
+
+h2 {
+    font-size: 20px;
+}
+.filtre {
+    margin: auto 5px;
+    font-size: 15px;
+    border: 2px solid #e7e7e7;
+    border-radius: 20px;
+    padding-right: 10px;
+    
+}
+
+.filtre i {
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #deebff;
+}
+
+#a {
+    width: 200px;
+    height: 30px ;
+}
+
+
+
+#i {
+    text-align: center;
+    border: 2px solid #e7e7e7;
+    border-radius: 50px;
+    padding: 5px 5px 0 5px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+
 
 /* SECTION RECHERCHE */
-.recherche{
+#rech {
+       
+       
+        margin-left : 10px;
+    
+      
+        
+        width: auto;
+        height: auto;
+}
+    
+input { 
+        width: 200px;
+        height: 22px;
+        border: none;
+}
+
+.recherche {
+       border: 2px solid #e7e7e7;
+       width: fit-content;
    
+    
 }
 
 .Rechercher
 {
+    
+    margin-left: 0;
     color: white;
     background: #0065fc ;
-    border-radius: 20px ;
-    border: none;
+    border-radius: 0px 10px 10px 0 ;
+    border: 1 px solid;
+    border-style: none;
+    
 }
 
 div h2
 {
     margin-right: 10px;
 }
+
+
+
 
 /* helpers */
 
@@ -85,10 +172,12 @@ flex-wrap: wrap;
 /* hébergements */
 
 #Hébergements {
-    padding: auto;
+    margin: 0 auto;
+    padding: 0 au;
     width: 70%;
-    background: rgb(218, 215, 215);
+    background: rgba(242,242,242,255);
     border-radius: 10px;
+    
 }
 
 .heb , .heb2{
@@ -101,10 +190,11 @@ flex-wrap: wrap;
 }
 
 #Pop {
-    padding: auto;
-    margin-left: 20px;
+    margin: 0 auto;
+    margin-left: 10px;
+    padding: 0 auto;
     width: 30%;
-    background: rgb(218, 215, 215);
+    background: rgba(242,242,242,255);
     border-radius: 10px;
 }
 
@@ -124,10 +214,7 @@ div{
     border-radius: 20px;
 }
 
-#bloc1
-{
-    width: 100%;
-}
+
 
 #Activités .x img {
     width: 450px;
@@ -142,20 +229,25 @@ div{
     border-radius: 20px 20px 0 0;
 }
 
-.x, 
-
 .x  {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    padding: 10px;
+    margin: 10px;
+    padding: 5px;
 }
 
 .xx {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-    margin: 15px;
+    margin: 10px;
+    padding: 5px;
 }
 
 #Activités {
     border-radius: 10px;
     
+}
+
+footer{
+    margin-top: 5%;
+    background: rgba(242,242,242,255);
+
 }

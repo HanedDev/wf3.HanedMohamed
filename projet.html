@@ -17,8 +17,8 @@
         <h1 class="flex flex-start"> <img src="logo/Reservia.svg" alt="Reservia"></h1>
         <nav>
             <ul class="flex flex-end">
-                <li><a href="#Hébergements">Hébergements</a></li>
-                <li><a href="#Activités">Acitivités</a></li>
+                <li><a href="#Hébergements" >Hébergements</a></li>
+                <li><a href="#Activités" style="color:black;">Acitivités</a></li>
                 <li><a href="#">S'inscrire</a></li>
             </ul>
         </nav>
@@ -27,31 +27,57 @@
 
    <section>
         <div id="intro">
-             <h2>Trouvez votre hébergement pour dezs vacances de rêve</h2>
+             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
              <p>En plein centre ville ou en pleine nature</p>
         </div>
 
         <div class="recherche" >
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="text">
+
+            <i id="rech" class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Merseille, France">
             <button class="Rechercher" type="button">Rechercher</button>
+
         </div>
 
         <div class="flex">
+
            <h2>Filtres</h2>
-           <h2> <button><i class="fa-sharp fa-solid fa-money-bill-wave"></i>  Économique </button></h2>
-           <h2> <button><i class="fa-solid fa-child-reaching"></i> Familial </button></h2>
-           <h2> <button> <i class="fa-solid fa-heart"></i> Romantique </button></h2>
-           <h2><button><i class="fa-solid fa-dog"></i> Animeaux autorisés </button></h2> 
+
+           <h2 class="filtre"> 
+                <a href="" id="e">
+                <i class="btn fa-sharp fa-solid fa-money-bill-wave"></i> 
+                 Économique </a>
+            </h2>
+
+           <h2 class="filtre"> 
+                <a href="" id="f">
+                <i class="btn fa-solid fa-child-reaching"></i>
+                 Familiale </a>
+                </h2>
+
+           <h2 class="filtre"> 
+            <a href="" id="r"> 
+            <i class="btn fa-solid fa-heart"></i> 
+            Romantique </a>
+           </h2>
+
+           <h2 class="filtre">
+            <a href="" id="a">
+            <i class="btn fa-solid fa-dog"></i> 
+            Animeaux autorisés </a>
+          </h2> 
+
         </div>
 
-        <p>
-            <button> <i class="fa-solid fa-info"></i> </button>
+            <p>
+            <a href="#" id="i"> 
+            <i class="fa-solid fa-info"></i>
+             </a>
             Plus de 500 logements sont disponible dans cette ville
-        </p>
+            </p>
     </section>
 
-    <section  class="flex space-around">
+    <section  class="flex space-between">
 
     <div id="Hébergements">
       <h4>Hébergements à Marseille</h2>
@@ -70,32 +96,32 @@
         <div class="heb">
             <img src="/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du port" >
 
-            <h3>Auberge la cannebière</h3>
-            <p>Nuit à partir de <strong>25€</strong></p>
+            <h3>Hotel de la mer</h3>
+            <p>Nuit à partir de <strong>46€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
         </div>
 
         <div class="heb">
             <img src="/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"  alt="Hotel les mouettes">
-            <h3>Auberge la cannebière</h3>
-            <p>Nuit à partir de <strong>25€</strong></p>
+            <h3>Hotem du port</h3>
+            <p>Nuit à partir de <strong>52€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+            <i class="fa-solid fa-star"></i>
         </div>
      </div>
 
      <div id="bloc2" class="flex center">
         <div class="heb">
             <img src="/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la mer" >
-            <h3>Auberge la cannebière</h3>
-            <p>Nuit à partir de <strong>25€</strong></p>
+            <h3>Auberge le Panier</h3>
+            <p>Nuit à partir de <strong>23€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -105,8 +131,8 @@
     
         <div class="heb">
             <img src="/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le panier" >
-            <h3>Auberge la cannebière</h3>
-            <p>Nuit à partir de <strong>25€</strong></p>
+            <h3>Hotel Les mouettes</h3>
+            <p>Nuit à partir de <strong>76€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -115,16 +141,16 @@
         </div>
         <div class="heb">
             <img src="/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"  alt="Hotel chez Amina" >
-            <h3>Auberge la cannebière</h3>
+            <h3>Hotel chez Amina</h3>
             <p>Nuit à partir de <strong>25€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+            <i class="fa-solid fa-star"></i>
         </div>
 
-    </div>
+     </div>
      <h4>Afficher Plus</h2>
 
 
@@ -134,7 +160,7 @@
     
     <div id="Pop">
         <h4>Les plus populaires</h2>
-<div class="center">          
+<div class="center ">          
         <div class="flex heb2">
             <img src="/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin">
            
@@ -230,12 +256,25 @@
 
  </body>
 
-<footer>
+<footer >
 
-    <div>
-        <div><h1>A propose</h1></div>
-        <div>Nos hebergemens</div>
-        <div></div>
+    <div class="flex space-around" >
+
+        <div><h1>A propose</h1> 
+            <p>Fonctionnement du site</p>
+            <p>Conditions générales de vente</p>
+            <p>Données et confidentialité</p>
+        </div>
+
+        <div><h1>Nos hebergemens</h1>
+            <p>Charte qualité</p>
+            <p>Soumettre votre hotel</p>
+        </div>
+
+        <div> <h1>Assistance</h1>
+            <p>Centre d'aide</p>
+            <p>Nous contacter</p>
+         </div>
 
     </div>
 
