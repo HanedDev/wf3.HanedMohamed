@@ -14,12 +14,14 @@
 
     <header class="flex space-between ">
         
+     
+
         <h1 class="flex flex-start"> <img src="logo/Reservia.svg" alt="Reservia"></h1>
         <nav>
             <ul class="flex flex-end">
-                <li><a href="#Hébergements" >Hébergements</a></li>
-                <li><a href="#Activités" style="color:black;">Acitivités</a></li>
-                <li><a href="#">S'inscrire</a></li>
+                <li id="H"><a href="#Hébergements" >Hébergements</a></li>
+                <li id="A"><a href="#Activités" style="color:black;">Acitivités</a></li>
+                <li id="S"><a href="#">S'inscrire</a></li>
             </ul>
         </nav>
         
@@ -77,13 +79,14 @@
             </p>
     </section>
 
-    <section  class="flex space-between">
+   
+    <section  class="BLOC flex space-between">
 
     <div id="Hébergements">
       <h4>Hébergements à Marseille</h2>
-      <div id="bloc1" class="flex center">
+      <div id="bloc1" class="flex  ">
         <div class="heb">
-            <img src="hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la cannebère" >
+            <img src="/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la cannebère" >
             <h3>Auberge la cannebière</h3>
             <p>Nuit à partir de <strong>25€</strong></p>
             <i class="fa-solid fa-star"></i>
@@ -117,7 +120,7 @@
         </div>
      </div>
 
-     <div id="bloc2" class="flex center">
+     <div id="bloc2" class="flex ">
         <div class="heb">
             <img src="/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la mer" >
             <h3>Auberge le Panier</h3>
@@ -139,6 +142,7 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-regular fa-star"></i>
         </div>
+
         <div class="heb">
             <img src="/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"  alt="Hotel chez Amina" >
             <h3>Hotel chez Amina</h3>
@@ -158,29 +162,29 @@
       
     </div>
     
-    <div id="Pop">
-        <h4>Les plus populaires</h2>
-<div class="center ">          
+    <div id="Pop" >
+
+        <h4>Les plus populaires</h2>          
         <div class="flex heb2">
-            <img src="/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin">
+        <img src="/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin">
            
            <div class="column">
-            <h3>Auberge la cannebière</h3>
-            <p>Nuit à partir de <strong>25€</strong></p>
+            <h3>Hotel Le soleil du matin</h3>
+            <p>Nuit à partir de <strong>128€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+            <i class="fa-solid fa-star"></i>
         </div>
         </div>
 
 
         <div class="flex heb2">
-             <img src="/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+             <img src="/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Auberge">
             <div class="column">
-             <h3>Auberge la cannebière</h3>
-            <p>Nuit à partir de <strong>25€</strong></p>
+             <h3>Au coeur de l'eau Chambre d'hotes</h3>
+            <p>Nuit à partir de <strong>71€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -191,8 +195,8 @@
         <div class="flex heb2">
             <img src="/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
        <div class="column">
-            <h3>Auberge la cannebière</h3>
-            <p>Nuit à partir de <strong>25€</strong></p>
+            <h3>Hotel Tout bleau et Blanc</h3>
+            <p>Nuit à partir de <strong>68€</strong></p>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -200,52 +204,61 @@
             <i class="fa-regular fa-star"></i>
         </div>
       </div>
-</div>        
-    </div>
+   </div>        
+
 
      </section>
-
+    
 
 <section id="Activités">
      <h4>Activités à Marseille</h4> 
 
 
-    <div class="flex space-around">
+    <div class="flex Center">
 
     <div id="sec1" class="flex">
+
         <div class="x">
-        <img src="/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
-        <h3>Vieux Port</h3>
+             <img src="/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+             <h3>Vieux Port</h3>
         </div>
 
-        <div>
-            <div class="xx" >
+        <div class="xx">
+
+            <div>
                 <img src="/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
                 <h3>Fort de Pomègue</h3>
             </div>
-            <div class="xx">
+            <div>
                 <img src="/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
                 <h3>Iles du Frioul</h3>
             </div>
+
         </div>
     </div>
 
     <div id="sec2" class="flex space-around">
+
         <div class="x">
             <img src="/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc National">
             <h3>Parc National des Calanques</h3>
         </div>
 
-        <div>
-            <div class="xx">
+      <div>
+
+        <div class="xx">
+            <div>
                 <img src="/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre Dame">
                 <h3>Notre-Dame-de-la-Garde</h3>
             </div>
-            <div class="xx"> 
+
+            <div  > 
                 <img src="/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
                 <h3>Parc Longchamp</h3>
             </div>
         </div>
+
+      </div>
 
 
     </div>
@@ -258,7 +271,7 @@
 
 <footer >
 
-    <div class="flex space-around" >
+    <div class="flex space-around " >
 
         <div><h1>A propose</h1> 
             <p>Fonctionnement du site</p>

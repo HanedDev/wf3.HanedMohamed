@@ -83,7 +83,7 @@ h2 {
     text-align: center;
     border: 2px solid #e7e7e7;
     border-radius: 50px;
-    padding: 5px 5px 0 5px;
+    padding: 5px 5px;
     width: auto;
     height: auto;
     margin: auto;
@@ -175,9 +175,24 @@ flex-wrap: wrap;
     margin: 0 auto;
     padding: 0 au;
     width: 70%;
+    height: 50%;
     background: rgba(242,242,242,255);
     border-radius: 10px;
     
+}
+
+#bloc1 , #bloc2 {
+    width: 100%;
+    height: 30%;
+}
+
+.heb {
+    width: 100%;
+    /* height: 35%; */
+    
+}
+.heb2 {
+    width: 90%;
 }
 
 .heb , .heb2{
@@ -192,20 +207,19 @@ flex-wrap: wrap;
 #Pop {
     margin: 0 auto;
     margin-left: 10px;
-    padding: 0 auto;
+    
     width: 30%;
     background: rgba(242,242,242,255);
     border-radius: 10px;
 }
-
 .heb img{
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    height: 10em;  
     border-radius: 20px 20px 0 0;
 }
 .heb2 img{
-    width: 200px;
-    height: 150px;
+    width: 60%;
+    height: 13em;
     border-radius: 20px 0 0 20px;
 }
 
@@ -214,40 +228,91 @@ div{
     border-radius: 20px;
 }
 
+/* .heb:hover {
+    transform: scale(1.25);
+    transition: 1s;
+}
 
+.heb2:hover {
+    transform: scale(1.25);
+    transition: 1s;
+} */
 
-#Activités .x img {
-    width: 450px;
-    height: 563px;
+.x img {
+    width: 100%;
+    height: 24em;
     border-radius: 20px 20px 0 0;
 }
 
-#Activités img {
-
-    width: 350px;
-    height: 270px;
+.xx img {
+    width: 100%;
+    height: 10em;
+    
     border-radius: 20px 20px 0 0;
 }
 
 .x  {
+    width: 100%;
+ 
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 5px;
 }
 
 .xx {
+    width: 100%;
+    
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 5px;
 }
 
 #Activités {
-    border-radius: 10px;
+   
+    
+    
+}
+
+#sec1{
+    
+   
+}
+
+#sec2
+{
     
 }
 
 footer{
-    margin-top: 5%;
+    margin-top: 100px;
+    
     background: rgba(242,242,242,255);
 
+}
+
+@media screen and ( max-width: 768px ) {
+    
+    *{
+        flex-wrap: wrap;
+    }
+    
+    nav {
+        
+    }
+
+    .BLOC {
+        flex-direction: column-reverse;
+    }
+
+    #Pop , #Hébergements { 
+        width:100%;
+        margin: 10px;
+    }
+   
+
+
+
+
+
+    
 }
